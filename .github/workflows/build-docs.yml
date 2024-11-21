@@ -13,11 +13,11 @@ env:
   INSTANCE: 'Writerside/j'
   ARTIFACT: 'webHelpJ2-all.zip'
   DOCKER_VERSION: '243.21565'
-  ALGOLIA_ARTIFACT: 'algolia-indexes-j.zip'
+  ALGOLIA_ARTIFACT: 'algolia-indexes-J.zip'
   ALGOLIA_APP_NAME: 'AB1UI1OWVE'
   ALGOLIA_INDEX_NAME: 'blog'
   ALGOLIA_KEY: '${{ secrets.ALGOLIA_KEY }}'
-  CONFIG_JSON_PRODUCT: 'j'
+  CONFIG_JSON_PRODUCT: 'J'
   CONFIG_JSON_VERSION: '1.0'
 
 jobs:
