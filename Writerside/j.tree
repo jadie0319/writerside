@@ -6,6 +6,7 @@
                  name="Jadie"
                  start-page="starter.md">
 
+    <toc-element topic="UML.md"/>
     <toc-element topic="starter.md"/>
     <toc-element topic="Empty-MD-Topic2.md"/>
     <toc-element topic="Empty-MD-Topic.md">
