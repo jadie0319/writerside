@@ -6,14 +6,17 @@
                  name="Jadie"
                  start-page="starter.md">
 
-    <toc-element topic="UML.md"/>
     <toc-element topic="starter.md"/>
-    <toc-element topic="Empty-MD-Topic2.md"/>
-    <toc-element topic="Empty-MD-Topic.md">
-        <toc-element topic="Empty-Child-Topic.md"/>
+    <toc-element topic="UML.md"/>
+    <toc-element topic="my-app-user-guide.md"/>
+    <toc-element topic="기술.md">
+        <toc-element topic="Empty-MD-Topic2.md"/>
+        <toc-element topic="Empty-MD-Topic.md">
+            <toc-element topic="Empty-Child-Topic.md"/>
+        </toc-element>
+        <toc-element topic="ETC.md"/>
     </toc-element>
     <toc-element topic="후기.md">
         <toc-element topic="2024하반기.md"/>
     </toc-element>
-    <toc-element topic="my-app-user-guide.md"/>
 </instance-profile>
