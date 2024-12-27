@@ -4,7 +4,6 @@
 
 <instance-profile id="ug"
                  name="My App User Guide"
-                 start-page="my-app-user-guide.md">
+>
 
-    <toc-element topic="my-app-user-guide.md"/>
 </instance-profile>

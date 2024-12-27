@@ -17,6 +17,9 @@
         <toc-element topic="ETC.md"/>
     </toc-element>
     <toc-element topic="후기.md">
-        <toc-element topic="2024하반기.md"/>
+        <toc-element topic="2024.md">
+            <toc-element topic="2024책.md"/>
+            <toc-element topic="2024하반기.md"/>
+        </toc-element>
     </toc-element>
 </instance-profile>
