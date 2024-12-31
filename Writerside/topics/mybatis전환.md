@@ -1,4 +1,4 @@
-# mybatis전환
+# MyBatis 전환
 
 Spring 3.0.5, JDK 7 을 사용하는 프로젝트의 버전을 올려야 하는 일이 생겼다. Spring 버전업과 관련하여 조사를 하던 중
 Spring 4 부터 JDK 8 이 완벽하게 동작한 다는 것을 알게 되어 최소 Spring 4 이상, JDK 8  이상으로 버전업을 목표로 조사를 진행했다.
@@ -6,7 +6,7 @@ Spring 4 부터 JDK 8 이 완벽하게 동작한 다는 것을 알게 되어 최
 왜냐하면 [Spring 4 부터는 Ibatis 를 지원하지 않기 때문이다.](https://blog.mybatis.org/2015/11/spring-4-got-you-down-with-no-ibatis.html) 
 그래서 Spring, JDK 버전을 올리기 전에 Ibatis 를 MyBatis 로 변경하기 위한 작업을 진행하기로 했다.
 
-## mybatis 의존성 추가 {id="mybatis_1"}
+## MyBatis 의존성 추가 {id="mybatis_1"}
 
 Spring 3.0.5 버전업 기준이다.
 
@@ -42,7 +42,7 @@ Spring 3.0.5 버전업 기준이다.
         </dependency>
 ```
 
-## mybatis 설정
+## MyBatis 설정
 
 mybatis 설정 파일을 만들고 Spring 에서 mybatis 설정 파일을 읽을 수 있게 web.xml 에 설정해준다.
 설정에 대한 자세한 내용은 생략한다. 요점은 `SqlSessionTemplate` 객체를 Spring Bean 으로 등록하는 것이다.
@@ -106,7 +106,7 @@ mybatis 설정 파일을 만들고 Spring 에서 mybatis 설정 파일을 읽을
 </configuration>
 ```
 
-## mybatis 실행 {id="mybatis_2"}
+## MyBatis 실행 {id="mybatis_2"}
 
 Ibatis 에선 `SqlMapClient` Bean 객체를 통해 쿼리를 실행했지만 mybatis 에서는 `SqlSession` Bean 객체를 통해 쿼리를 실행한다.
 
