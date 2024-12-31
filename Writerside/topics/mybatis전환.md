@@ -150,7 +150,7 @@ ibatis 와 mybatis 는 문법간 약간의 차이가 있다. 여기서 모든 �
 <td>
 <p>
 
-```XML
+```plain text
 <!-- Ibatis Sample-->
 
 <?xml version="1.0" encoding="UTF-8"?>
@@ -171,13 +171,12 @@ ibatis 와 mybatis 는 문법간 약간의 차이가 있다. 여기서 모든 �
 		"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="service.impl.ParentMapper">
-    <select id="selectList" parameterType="hashMap" resultType=“hashMap" >
+    <select id="selectList" parameterType="hashMap" resultType= “hashMap" >
         …
         where ste.f_exam_id in (${test_id}) and ste.f_user_cd = #{student_no}
         …
     </select>
 </mapper>
-
 ```
 
 </p>
@@ -202,7 +201,7 @@ ibatis 와 mybatis 는 문법간 약간의 차이가 있다. 여기서 모든 �
 <td>
 <p>
 
-```XML
+```plain text
 <!-- Ibatis Sample-->
 
 <isNotEmpty property="status">
@@ -210,7 +209,7 @@ ibatis 와 mybatis 는 문법간 약간의 차이가 있다. 여기서 모든 �
 </isNotEmpty>
 
 <iterate property="problemId" prepend="where p.id in" open="(" close=")" conjunction=",">
-#problemId[]#
+    #problemId[]#
 </iterate>
 
 <isEmpty property="serviceId">
@@ -243,7 +242,6 @@ ibatis 와 mybatis 는 문법간 약간의 차이가 있다. 여기서 모든 �
 <selectKey keyProperty="stuId" resultType="string">
     SELECT LAST_INSERT_ID()
 </selectKey>
-
 
 ```
 
