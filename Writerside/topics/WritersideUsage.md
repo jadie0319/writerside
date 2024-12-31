@@ -1,4 +1,6 @@
-# Starter
+# WritersideUsage
+
+필요한 WriterSide 문법 메모
 
 <!--Writerside adds this topic when you create a new documentation project.
 You can use it as a sandbox to play with Writerside features, and remove it from the TOC when you don't need it anymore.-->
