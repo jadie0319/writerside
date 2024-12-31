@@ -148,9 +148,9 @@ ibatis 와 mybatis 는 문법간 약간의 차이가 있다. 여기서 모든 �
 
 </td>
 <td>
-<p>
 
-```plain text
+
+```xml
 <!-- Ibatis Sample-->
 
 <?xml version="1.0" encoding="UTF-8"?>
@@ -179,7 +179,7 @@ ibatis 와 mybatis 는 문법간 약간의 차이가 있다. 여기서 모든 �
 </mapper>
 ```
 
-</p>
+
 </td>
 </tr>
 <tr>
@@ -199,9 +199,9 @@ ibatis 와 mybatis 는 문법간 약간의 차이가 있다. 여기서 모든 �
 
 </td>
 <td>
-<p>
 
-```plain text
+
+```xml
 <!-- Ibatis Sample-->
 
 <isNotEmpty property="status">
@@ -245,7 +245,7 @@ ibatis 와 mybatis 는 문법간 약간의 차이가 있다. 여기서 모든 �
 
 ```
 
-</p>
+
 </td>
 </tr>
 </table>
