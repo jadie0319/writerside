@@ -4,8 +4,9 @@
 
 <instance-profile id="j"
                  name="Jadie"
-                 start-page="WritersideUsage.md">
+                 start-page="Main.md">
 
+    <toc-element topic="Main.md"/>
     <toc-element topic="my-app-user-guide.md">
         <toc-element topic="mybatis전환.md">
             <toc-element topic="SpringTest.md"/>
